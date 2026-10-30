@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Minecraft";
+  src: url("minecraft.ttf");
+}
+
+textarea {
+  font-family: "Minecraft";
+}
+
+body{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  font-family: sans-serif;
+  -webkit-app-region: drag;
+}
+
+.icon{
+    background-image: url("book.png");
+
+}
+
+button{
+  position: absolute;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-app-region: no-drag;
+}
+
+textarea{
+background: transparent;
+}
+
+#leftPage{
+    bg-img: url("left.jpg");
+    left: 12%;
+}
+
+#rightPage{
+    rightPage-img: url("right.jpg");
+}
+
+.closeBtn{
+
+}
+
+.openBtn{
+
+}
+
+.fullopeanBtn{
+
+}
+
+#pageno{
+
+}
+
+#nextBtn{
+
+}
+
